@@ -1,0 +1,7 @@
+#Set for repository
+git config user.email <email@domain.tld>
+git config user.name <username>
+
+#Set globally
+git config --global user.email <email@domain.tld>
+git config --global user.name <username>
