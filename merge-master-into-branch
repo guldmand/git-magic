@@ -1,0 +1,13 @@
+Source: https://www.togaware.com/linux/survivor/Git_Merge_Master_into.html
+
+# Git Merge Master into Branch
+
+$ git checkout main
+$ git pull
+$ git checkout validator
+$ git merge main
+$ git push
+
+$ git checkout validator
+$ git merge origin/main
+$ git push
