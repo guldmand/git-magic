@@ -1,14 +1,20 @@
 ## Git Merge Master into Branch
+----------------------------------------
 Source: https://www.togaware.com/linux/survivor/Git_Merge_Master_into.html
 
-#Merge local main into branch
+
+
+# Merge local main into branch
+----------------------------------------
 $ git checkout main
 $ git pull
 $ git checkout branchname
 $ git merge main
 $ git push
 
-#Merge remote main into branch
+
+# Merge remote main into branch
+----------------------------------------
 $ git checkout branchname
 $ git merge origin/main
 $ git push
