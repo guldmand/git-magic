@@ -1,0 +1,2 @@
+//git: get current brahcn
+git rev-parse --abbrev-ref HEAD
