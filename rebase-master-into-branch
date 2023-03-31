@@ -1,0 +1,4 @@
+1. git checkout master //switch to master branch
+2. git  pull
+3. git checkout branch // switch back to branch
+4. git rebase master
