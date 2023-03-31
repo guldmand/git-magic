@@ -3,7 +3,7 @@ Git magic is a repo with different useable git commands
 
 ## Branch
 1. <a href="/merge-master-into-branch">Merging master into a branch</a>
-2. <a href="/merge-master-into-branch">Rebase master into branch</a>
+2. <a href="/rebase-master-into-branch">Rebase master into branch</a>
 3. <a href="/get-current-git-branch-name">How do I get the current branch name in Git?</a>
 
 ## user
