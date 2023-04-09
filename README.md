@@ -1,5 +1,5 @@
 # Git Magic
-Git magic is a collection of different git commands i use
+Git magic is a collection of different git commands I use
 
 ## Branch
 - <a href="/merge-master-into-branch">Merging master into a branch</a>
