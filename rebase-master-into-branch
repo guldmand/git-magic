@@ -2,3 +2,24 @@
 2. git  pull
 3. git checkout branch // switch back to branch
 4. git rebase master
+
+
+
+If Auto-merging path/to/filename
+CONFLICT (content): Merge conflict in path/to/filename
+error: could not apply 09401f4... component code and umbraco types synced
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 09401f4... {commit message goes here}
+
+
+How to continue - for each merge-conflict do the following:
+1: git mergetool
+2: git rebase --continue
+
+
+[detached HEAD 910af95] {commit message goes here}
+ 2 files changed, 17 insertions(+), 14 deletions(-)     //Example Output - values may be different
+Successfully rebased and updated refs/heads/{branchname}
