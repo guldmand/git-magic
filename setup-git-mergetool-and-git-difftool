@@ -1,3 +1,30 @@
-## Setup
+## SETUP
 
-This is how you do it
+
+1: control contents of 
+
+A)
+c:/users/username/.gitconfig
+
+B)
+Navigate to your repository and look for a file named .git/config. Open it and see if there are any settings related to diff or merge tools that might be overriding your global configuration. If you find any such settings, either remove them or change them to match your global configuration.
+
+c)
+Confirm the global Git configuration:
+Run git config --global --list in your terminal or command prompt to confirm that your global Git configuration is correctly set to use the tool you want for diffs and merges.
+
+
+d)
+if git config --global --list output is missing the lines for  diftool/mergetool
+but the lines are present in .gitconfig file, then try to do the following:
+
+
+It seems that your global Git configuration does not include the settings for the difftool and mergetool that should use VSCode. To add these settings back to your global Git configuration, run the following commands in your terminal:
+
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd 'code --wait $MERGED'
+git config --global mergetool.vscode.trustExitCode true
+
+Once you've executed these commands, run git config --global --list again to confirm that the new settings are in place. After that, your Git difftool and mergetool should use VSCode as expected.
