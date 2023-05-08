@@ -12,5 +12,8 @@ Git magic is a collection of different git commands I use
 ## Log
 - <a href="/viewing-the-commit-history">Viewing the repository commit history</a>
 
+## Settings
+- <a href="/setup-mergetool-and-difftool">How to setup mergetool and difftool</a>
+
 ## Other
 - <a href="/determine-original-git-repo-url">Determine the original git repository clone URL path</a>
