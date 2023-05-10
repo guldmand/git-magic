@@ -23,3 +23,16 @@ How to continue - for each merge-conflict do the following:
 [detached HEAD 910af95] {commit message goes here}
  2 files changed, 17 insertions(+), 14 deletions(-)     //Example Output - values may be different
 Successfully rebased and updated refs/heads/{branchname}
+
+
+If rebase fails do:
+git rebase --abort
+
+If you want to contiue the rebase do:
+git rebase --continue
+
+If mErging failes do:
+git merge --abort
+
+When the rebase is completly done do: 
+git push -f
