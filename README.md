@@ -15,5 +15,8 @@ Git magic is a collection of different git commands I use
 ## Settings
 - <a href="/setup-git-mergetool-and-git-difftool">How to setup mergetool and difftool</a>
 
+## VSCode
+- <a href="/vscode-set-git-workspace-colors">Vscode: Set git workspace colors</a>
+
 ## Other
 - <a href="/determine-original-git-repo-url">Determine the original git repository clone URL path</a>
