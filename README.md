@@ -7,7 +7,8 @@ Git magic is a collection of different git commands I use
 - <a href="/get-current-git-branch-name">How do I get the current branch name in Git?</a>
 
 ## User
-- <a href="/set-git-email-and-name">Setting git user e-mail and password</a>
+- <a href="/set-git-email-and-name">Setting git user e-mail and git-username</a>
+- <a href="/verify-git-email-and-name">Verify curent git user e-mail and git-username</a>
 
 ## Log
 - <a href="/viewing-the-commit-history">Viewing the repository commit history</a>
