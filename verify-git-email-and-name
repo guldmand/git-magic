@@ -1,0 +1,5 @@
+// To check your GitHub username:
+git config --global user.name
+
+// To check your GitHub email:
+git config --global user.email
